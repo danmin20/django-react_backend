@@ -13,7 +13,6 @@ class PostSerializer(serializers.ModelSerializer):
     class Meta:
         fields = (
             'id',
-            'title',
-            'content',
+            'text',
         )
         model = Post
